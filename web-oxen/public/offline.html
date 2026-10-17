@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>OXEN — Offline</title>
+    <style>
+      :root { color-scheme: dark; }
+      html, body { margin: 0; min-height: 100%; }
+      body {
+        background:
+          radial-gradient(ellipse 80% 60% at 50% -10%, #1a2647, transparent 70%),
+          radial-gradient(ellipse 60% 50% at 90% 10%, #5a3a14, transparent 60%),
+          #0a0e1a;
+        color: #f4ead2;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+        display: flex; align-items: center; justify-content: center;
+        min-height: 100vh; text-align: center; padding: 24px;
+      }
+      .wrap { max-width: 420px; }
+      .logo { font-size: 56px; font-weight: 800; letter-spacing: -0.04em; color: #f0b444; margin: 0 0 8px; }
+      .title { font-size: 18px; font-weight: 600; margin: 0 0 6px; opacity: 0.92; }
+      .msg { font-size: 14px; opacity: 0.62; line-height: 1.5; margin: 0 0 24px; }
+      .btn {
+        display: inline-block; padding: 12px 24px; border-radius: 14px;
+        background: rgba(240,180,68,0.14); color: #f0b444; border: 1px solid rgba(240,180,68,0.24);
+        text-decoration: none; font-weight: 600; font-size: 14px;
+        -webkit-tap-highlight-color: transparent;
+      }
+      @media (max-width: 480px) { .logo { font-size: 44px; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <p class="logo">OXEN</p>
+      <p class="title">You're offline</p>
+      <p class="msg">Previously loaded maps, saved destinations, and your travel plans are still available. We'll sync everything once you're back online.</p>
+      <a class="btn" href="/">Try again</a>
+    </div>
+  </body>
+</html>

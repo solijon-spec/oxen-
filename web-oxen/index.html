@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <meta name="description" content="OXEN — explore the world from space. Discover countries, plan trips with AI, and map your journey." />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Initial theme: apply before paint to prevent FOUC -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("oxen.theme");
+          var theme = t === "light" || t === "dark" ? t : "dark";
+          var lang = localStorage.getItem("oxen.language") || "en";
+          document.documentElement.classList.add(theme);
+          document.documentElement.style.colorScheme = theme;
+          document.documentElement.lang = lang;
+          var rtl = lang === "ar" || lang === "fa";
+          document.documentElement.dir = rtl ? "rtl" : "ltr";
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="OXEN — Explore the World" />
+    <meta property="og:description" content="Spin the globe, discover destinations, and plan your dream trip with AI." />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- PWA manifest + icons (canonical set managed by src/lib/brand.ts) -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="OXEN" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#0a0e1a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)" />
+
+    <title>OXEN</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

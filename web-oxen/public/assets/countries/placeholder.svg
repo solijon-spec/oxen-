@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#0d0f15"/>
+  <circle cx="400" cy="280" r="120" fill="url(#grad)" opacity="0.15"/>
+  <g opacity="0.4">
+    <path d="M320 300 Q400 220 480 300 Q480 360 400 380 Q320 360 320 300Z" fill="#1a1d28" stroke="#2a2d38" stroke-width="2"/>
+  </g>
+  <text x="400" y="440" font-family="-apple-system, system-ui, sans-serif" font-size="20" font-weight="500" fill="#3a3d48" text-anchor="middle">OXEN</text>
+  <defs>
+    <linearGradient id="grad" x1="400" y1="160" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a3a5c"/>
+      <stop offset="1" stop-color="#0d0f15"/>
+    </linearGradient>
+  </defs>
+</svg>

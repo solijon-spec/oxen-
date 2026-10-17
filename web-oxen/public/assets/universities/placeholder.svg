@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#0d0f15"/>
+  <rect x="300" y="200" width="200" height="160" rx="12" fill="#1a1d28" stroke="#2a2d38" stroke-width="2"/>
+  <path d="M340 260 L460 260 M340 290 L440 290 M340 320 L420 320" stroke="#2a2d38" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="400" cy="300" r="60" fill="url(#grad)" opacity="0.1"/>
+  <text x="400" y="420" font-family="-apple-system, system-ui, sans-serif" font-size="18" font-weight="500" fill="#3a3d48" text-anchor="middle">University</text>
+  <defs>
+    <linearGradient id="grad" x1="400" y1="240" x2="400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a3a5c"/>
+      <stop offset="1" stop-color="#0d0f15"/>
+    </linearGradient>
+  </defs>
+</svg>

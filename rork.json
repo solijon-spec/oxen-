@@ -1,0 +1,18 @@
+{
+  "$schema": "https://rork.com/schema/rork.json",
+  "apps": [
+    {
+      "name": "OXEN",
+      "path": "web-oxen",
+      "framework": "web",
+      "settings": {
+        "webSlug": "oxentravel"
+      }
+    },
+    {
+      "name": "Backend",
+      "path": "backend",
+      "framework": "supabase"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "OXEN",
+  "short_name": "OXEN",
+  "description": "OXEN — explore the world from space. Discover countries, plan trips with AI, and map your journey.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "categories": ["travel", "navigation", "lifestyle"],
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    { "src": "/icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.png", "sizes": "1024x1024", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/favicon.png", "sizes": "32x32", "type": "image/png", "purpose": "any" }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    { "name": "Globe", "url": "/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Explore", "url": "/explore?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Travel", "url": "/travel?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

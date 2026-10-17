@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0d0f15"/>
+  <polygon points="340,170 470,170 420,250 500,250 350,370 400,270 320,270" fill="#1a1d28" stroke="#2a2d38" stroke-width="2" stroke-linejoin="round"/>
+  <text x="400" y="400" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="500" fill="#3a3d48" text-anchor="middle">Video</text>
+</svg>
